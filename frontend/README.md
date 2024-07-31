@@ -1,0 +1,3 @@
+# Trendblender
+
+Vite + React

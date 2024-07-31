@@ -1,0 +1,11 @@
+.nav-button-custom {
+  background-color: var(--var-secondary-color);
+  outline: none;
+}
+.nav-button-custom:focus {
+  outline: solid 2px var(--var-main-color) !important;
+}
+
+#nav-dropdown ~ div {
+  background-color: var(--var-successSub-color);
+}

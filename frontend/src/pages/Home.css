@@ -1,0 +1,26 @@
+.bg-image-custom {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+
+/* Small screens (Mobile)*/
+@media screen and (max-width: 768px) {
+  .bg-image-custom {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Medium Screens (Ipad)*/
+@media screen and (max-width: 992px) {
+  .cover-image-custom {
+    height: 150px;
+  }
+  .cover-custom {
+    margin: 1rem !important;
+  }
+  .cover-text-custom {
+    font-size: 1.2rem !important;
+  }
+}

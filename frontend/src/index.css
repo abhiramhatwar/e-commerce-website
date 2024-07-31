@@ -1,0 +1,48 @@
+/* Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+/* Variables */
+:root {
+  --var-main-color: rgb(99, 199, 219);
+  --var-secondary-color: rgb(18, 27, 37);
+  --var-successSub-color: hsl(153, 31%, 86%);
+}
+
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Custom helper classes */
+.text-custom {
+  color: var(--var-secondary-color);
+}
+.text-custom-primary {
+  color: var(--var-primary-color);
+}
+
+.bg-custom-main {
+  background-color: var(--var-main-color) !important;
+}
+.bg-custom {
+  background-color: var(--var-secondary-color) !important;
+}
+
+.link-custom-unstyled {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover-color-custom:hover {
+  color: black !important;
+  background-color: var(--var-main-color) !important;
+}
+
+.text-handwriting-custom {
+  font-family: Sacramento, cursive;
+  font-size: 3rem !important;
+}

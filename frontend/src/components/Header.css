@@ -1,0 +1,23 @@
+/* Header */
+
+.logo {
+  height: 50px;
+}
+.search-btn-custom {
+  position: relative;
+  margin-left: -2.6rem;
+}
+
+/* Small screens (Mobile)*/
+@media screen and (max-width: 768px) {
+  .search-custom {
+    width: 100% !important;
+  }
+  .search-btn-custom {
+    position: absolute;
+    right: 1.5rem;
+  }
+  .search-box-custom {
+    padding: 0.4rem;
+  }
+}

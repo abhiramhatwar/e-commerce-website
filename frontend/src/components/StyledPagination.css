@@ -1,0 +1,14 @@
+/* Styles for pagination components in react-bootstrap */
+.pagination .page-item.active .page-link {
+  background-color: var(--var-successSub-color);
+  border-color: var(--var-successSub-color);
+  color: var(--var-secondary-color);
+}
+
+.pagination .page-link {
+  color: var(--var-secondary-color);
+}
+
+.pagination .page-link:hover {
+  color: var(--var-secondary-color);
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  /* Position side button at the bottom for mobile */
+  .sm-position-bottom {
+    bottom: 0;
+  }
+}
+
+.side-button:hover {
+  background-color: #efbbbf !important;
+  padding: 0.5em 1em;
+  transition: all 0.5s;
+}
+
+.side-button {
+  transition: all 0.5s;
+}
