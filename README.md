@@ -29,7 +29,7 @@ To run the E-Commerce Website locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/e-commerce-website.git
+   git clone https://github.com/abhiramhatwar/e-commerce-website.git
 
 2. **Navigate to the Project Directory**:
    ```bash
